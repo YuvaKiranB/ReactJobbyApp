@@ -1,0 +1,135 @@
+.jobLink {
+  text-decoration: none;
+}
+
+.jobItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #272727;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.jobHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.companyLogoImage {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.jobTitleHeading {
+  font-family: roboto;
+  font-size: 16px;
+  margin: 2px;
+  color: white;
+}
+
+.jobRatingHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.starLogo {
+  color: orange;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.ratingPara {
+  font-family: roboto;
+  font-size: 16px;
+  color: white;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.jobLocationAndTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.jobLocationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.locationIcon {
+  font-size: 16px;
+  color: white;
+  margin-right: 5px;
+}
+
+.locationPara {
+  font-family: roboto;
+  font-size: 14px;
+  color: white;
+}
+
+.jobTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jobTypeIcon {
+  font-size: 16px;
+  color: white;
+  margin-right: 5px;
+}
+
+.jobTypePara {
+  font-family: roboto;
+  font-size: 14px;
+  color: white;
+}
+
+.jobCardPart1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.packagePerAnnumPara {
+  align-self: flex-end;
+  color: white;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.jobCardHr {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7e858e;
+}
+
+.jobCardDescriptionHeading {
+  margin: 0px;
+  color: white;
+  font-family: roboto;
+  font-size: 15px;
+}
+
+.jobCardDescriptionPara {
+  font-size: 14px;
+  color: white;
+  font-family: roboto;
+  margin-top: 10px;
+  font-weight: 400;
+}

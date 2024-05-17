@@ -1,0 +1,91 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #000000;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #272727;
+  border-radius: 5px;
+}
+
+.loginImage {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputLabel {
+  color: white;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+.usernameInput {
+  width: 250px;
+  padding: 6px;
+  padding-left: 10px;
+  margin: 2px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2c364c;
+  font-family: roboto;
+  margin-bottom: 12px;
+  outline: none;
+  color: white;
+}
+
+.passwordInput {
+  width: 250px;
+  padding: 6px;
+  padding-left: 10px;
+  margin: 2px;
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2c364c;
+  font-family: roboto;
+  margin-bottom: 12px;
+  outline: none;
+  color: white;
+}
+
+.loginButton {
+  margin-top: 20px;
+  width: 250px;
+  padding: 6px;
+  font-family: roboto;
+  font-size: 14px;
+  color: white;
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: #ff0b37;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 12px;
+  align-self: flex-start;
+  margin-left: 2px;
+  margin-top: 0px;
+  padding-top: 0px;
+}

@@ -1,0 +1,82 @@
+.employmentTypeHeading {
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.employmentTypeContainer {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.listItem {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.employmentTypeListItem {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.employmentTypeInput {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.employmentTypeLabel {
+  color: white;
+  margin-left: 5px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.employmentTypeHr {
+  border-color: #2c364c;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 15px;
+}
+
+.employmentTypeContainer {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.salaryRangeList {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.salaryRangeHeading {
+  color: white;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.salaryRangeListItem {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.salaryRangeInput {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.salaryRangeLabel {
+  color: white;
+  margin-left: 5px;
+  font-family: roboto;
+  font-size: 14px;
+}

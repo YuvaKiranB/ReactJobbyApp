@@ -1,0 +1,127 @@
+.similarJobsCard {
+  width: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.similarJobsLink {
+  text-decoration: none;
+}
+
+.similarJobHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similarJobImage {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.similarJobDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.similarJobTitleHeading {
+  font-family: roboto;
+  font-size: 24px;
+  color: white;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.similarJobRatingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similarJobStar {
+  font-size: 30px;
+  color: orange;
+  margin-right: 8px;
+}
+
+.similarJobRatingPara {
+  font-family: roboto;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.similarJobsDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.similarJobDescriptionHeading {
+  font-family: roboto;
+  font-size: 25px;
+  color: white;
+}
+
+.similarJobDescriptionPara {
+  font-family: roboto;
+  font-size: 22px;
+  font-weight: 400;
+  color: #f1f5f9;
+  line-height: 1.2;
+}
+
+.similarJobLocationAndTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similarJobLocationContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.similarJobLocationIcon {
+  font-size: 20px;
+  color: white;
+  margin-right: 6px;
+}
+
+.similarJobLocationPara {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+}
+
+.similarJobJobTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.similarJobJobTypeIcon {
+  font-size: 20px;
+  color: white;
+  margin-right: 6px;
+}
+
+.similarJobJobTypePara {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .similarJobsCard {
+    width: 32%;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,108 @@
+.navContainer {
+  padding: 20px;
+  background-color: #272727;
+}
+
+.headerButtonsContainerMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktopButtons {
+  display: none;
+}
+
+.mobileHeaderLogo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.mobileButtons {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mobileHomeButton {
+  background-color: transparent;
+  font-size: 30px;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.mobileJobButton {
+  background-color: transparent;
+  font-size: 30px;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.mobileLogoutButton {
+  background-color: transparent;
+  font-size: 30px;
+  border-width: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .headerButtonsContainerMobile {
+    display: none;
+  }
+
+  .desktopButtons {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .desktopHeaderLogo {
+    height: 40px;
+    margin-left: 20px;
+  }
+
+  .desktopHomeButton {
+    margin-right: 10px;
+    color: white;
+    background-color: transparent;
+    border-width: 0px;
+    font-family: roboto;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .desktopJobButton {
+    margin-right: 10px;
+    color: white;
+    background-color: transparent;
+    border-width: 0px;
+    font-family: roboto;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .desktopLogoutButton {
+    margin-right: 20px;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4f46e5;
+    border-width: 0px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
